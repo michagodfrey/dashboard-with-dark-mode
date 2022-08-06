@@ -6,18 +6,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/style/normalize.css">
   <link rel="stylesheet" href="/style/style.css">
+  <script src="app.js" defer></script>
   <title>Frontend Mentor | Social Media Dashboard</title>
 </head>
 <body>
   <main>
     <header>
-      <h1>Social Media Dashboard</h1>
-      <h3>Total Followers: 23,004</h3>
+      <div>
+        <h1>Social Media Dashboard</h1>
+        <h3>Total Followers: 23,004</h3>
+      </div>
       <hr>
       <p class="toggle-container">
         <span class="toggle-container__text">Dark Mode</span>
         <label class="switch">
-          <input type="checkbox">
+          <input type="checkbox" onclick="toggleDarkMode()">
           <span class="slider round"></span>
         </label>
       </p>
@@ -47,18 +50,21 @@
           99 Today
         </p>
       </div>
-      <div class="social--instagram">
-        <p class="social__user">
-          <img src="/images/icon-instagram.svg" alt="icon-instagram">
-          @realnathanf
-        </p>
-        <p class="social__count">11k</p>
-        <p class="social__followers">Followers</p>
-        <p class="social__change">
-          <img src="/images/icon-up.svg" alt="icon-up">
-          1099 Today
-        </p>
-      </div>
+      <!-- <div class="social__instagram-wrapper"> -->
+        <div class="social--instagram">
+          <!-- <span class="border">hello</span> -->
+          <p class="social__user">
+            <img src="/images/icon-instagram.svg" alt="icon-instagram">
+            @realnathanf
+          </p>
+          <p class="social__count">11k</p>
+          <p class="social__followers">Followers</p>
+          <p class="social__change">
+            <img src="/images/icon-up.svg" alt="icon-up">
+            1099 Today
+          </p>
+        </div>
+      <!-- </div> -->
       <div class="social--youtube">
         <p class="social__user">
           <img src="/images/icon-youtube.svg" alt="icon-youtube">
