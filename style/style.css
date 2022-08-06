@@ -18,7 +18,7 @@
 
   /* dark theme */
   --very-dark-blue: hsl(230, 17%, 14%);
-  --very-dark-blue: hsl(232, 19%, 15%);
+  --very-dark-blue-top: hsl(232, 19%, 15%);
   --dark-desaturated-blue: hsl(228, 28%, 20%);
   --desaturated-blue: hsl(228, 34%, 66%);
 
@@ -27,7 +27,6 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --light-grayish-blue: hsl(227, 47%, 96%);
   --dark-grayish-blue: hsl(228, 12%, 44%);
-  --very-dark-blue: hsl(230, 17%, 14%);
 }
 
 main {
@@ -47,8 +46,6 @@ hr {
   border-top: 1px solid #ccc;
   padding: 0;
 }
-
-/* slider styles adaped from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch */
 
 .toggle-container {
   display: flex;
@@ -100,7 +97,6 @@ hr {
 }
 
 input:checked + .slider {
-  /* gradient done with https://html-css-js.com/css/generator/gradient/ and hsl to hex conversion https://htmlcolors.com/hsl-to-hex */
   background: #378FE6;
   background: -moz-linear-gradient(left, #378FE6 0%, #3eda82 100%);
   background: -webkit-linear-gradient(left, #378FE6 0%, #3eda82 100%);
@@ -126,7 +122,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.social div {
+.social__card {
   width: 90vw;
   background-color: var(--light-grayish-blue);
   margin: 1rem auto;
@@ -136,7 +132,7 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
-.social div:hover {
+.social__card:hover {
    background-color: #d8dae1;
 }
 
@@ -216,7 +212,7 @@ h2 {
   margin: 2rem 0;
 }
 
-.overview div {
+.overview__card {
   max-width: 90vw;
   background-color: var(--light-grayish-blue);
   margin: .75rem auto;
@@ -225,7 +221,7 @@ h2 {
   cursor: pointer;
 }
 
-.overview div:hover {
+.overview__card:hover {
    background-color: #d8dae1;
 }
 
@@ -258,10 +254,9 @@ h2 {
 
 @media (min-width: 1024px) {
 
-/* figured this out from https://www.youtube.com/watch?v=zGiirUiWslI&ab_channel=KevinPowell */
   body::before {
     content: '';
-    background-color: var(--light-grayish-blue);
+    background-color: var(--very-pale-blue);
     display: block;
     height: 215px;
     width: 100%;
@@ -318,18 +313,25 @@ h2 {
 /* darkmode classes */
 
 .dark-mode {
-  background-color: black;
-  color: white;
+  background-color: var(--very-dark-blue);
+  color: var(--white);
 }
 
 .dark-mode--card {
   background-color: var(--dark-desaturated-blue);
 }
 
-.dark-mode--h3 {
-  color: var(--desaturated-blue);
+.dark-mode--card:hover {
+  background-color: #3b3f54;
 }
 
+.dark-mode--title {
+  color: var(--white);
+}
+
+.dark-mode--text {
+  color: var(--desaturated-blue);
+}
 
 /* attribution */
 

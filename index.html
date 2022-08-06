@@ -20,13 +20,13 @@
       <p class="toggle-container">
         <span class="toggle-container__text">Dark Mode</span>
         <label class="switch">
-          <input type="checkbox" onclick="toggleDarkMode()">
+          <input type="checkbox" onclick="toggleDarkMode()" checked="checked">
           <span class="slider round"></span>
         </label>
       </p>
     </header>
     <div class="social">
-      <div class="social--facebook">
+      <div class="social__card social--facebook">
         <p class="social__user">
           <img src="/images/icon-facebook.svg" alt="icon-facebook">
           @nathanf
@@ -38,7 +38,7 @@
           12 Today
         </p>
       </div>
-      <div class="social--twitter">
+      <div class="social__card social--twitter">
         <p class="social__user">
           <img src="/images/icon-twitter.svg" alt="icon-twiiter">
           @nathanf
@@ -51,7 +51,7 @@
         </p>
       </div>
       <!-- <div class="social__instagram-wrapper"> -->
-        <div class="social--instagram">
+        <div class="social__card social--instagram">
           <!-- <span class="border">hello</span> -->
           <p class="social__user">
             <img src="/images/icon-instagram.svg" alt="icon-instagram">
@@ -65,7 +65,7 @@
           </p>
         </div>
       <!-- </div> -->
-      <div class="social--youtube">
+      <div class="social__card social--youtube">
         <p class="social__user">
           <img src="/images/icon-youtube.svg" alt="icon-youtube">
           Nathan F.
@@ -82,9 +82,9 @@
     <h2>Overview - Today</h2>
 
     <div class="overview">
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Page Views</span>
+          <span class="overview__text">Page Views</span>
           <img src="/images/icon-facebook.svg" alt="icon-facebook">
         </p>
         <p>
@@ -95,9 +95,9 @@
           </span>
         </p>
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Likes</span>
+          <span class="overview__text">Likes</span>
           <img src="/images/icon-facebook.svg" alt="icon-facebook">
         </p>
         <p>
@@ -108,9 +108,9 @@
           </span>
         </p>
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Likes</span>
+          <span class="overview__text">Likes</span>
           <img src="/images/icon-instagram.svg" alt="icon-instagram">
         </p>
         <p>
@@ -122,9 +122,9 @@
         </p>
 
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Profile Views</span>
+          <span class="overview__text">Profile Views</span>
           <img src="/images/icon-instagram.svg" alt="icon-instagram">
         </p>
         <p>
@@ -136,9 +136,9 @@
         </p>
 
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Retweets</span>
+          <span class="overview__text">Retweets</span>
           <img src="/images/icon-twitter.svg" alt="icon-twiiter">
         </p>
         <p>
@@ -148,11 +148,10 @@
             303%
           </span>
         </p>
-
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Likes</span>
+          <span class="overview__text">Likes</span>
           <img src="/images/icon-twitter.svg" alt="icon-twiiter">
         </p>
         <p>
@@ -163,9 +162,9 @@
           </span>
         </p>
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Likes</span>
+          <span class="overview__text">Likes</span>
           <img src="/images/icon-youtube.svg" alt="icon-youtube">
         </p>
         <p>
@@ -176,9 +175,9 @@
           </span>
         </p>
       </div>
-      <div>
+      <div class="overview__card">
         <p>
-          <span>Total Views</span>
+          <span class="overview__text">Total Views</span>
           <img src="/images/icon-youtube.svg" alt="icon-youtube">
         </p>
         <p>
