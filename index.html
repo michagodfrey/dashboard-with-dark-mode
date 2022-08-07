@@ -10,6 +10,7 @@
   <title>Frontend Mentor | Social Media Dashboard</title>
 </head>
 <body>
+  <div class="background-top"></div>
   <main>
     <header>
       <div>
@@ -20,7 +21,7 @@
       <p class="toggle-container">
         <span class="toggle-container__text">Dark Mode</span>
         <label class="switch">
-          <input type="checkbox" onclick="toggleDarkMode()" checked="checked">
+          <input type="checkbox" onclick="toggleDarkMode()">
           <span class="slider round"></span>
         </label>
       </p>
@@ -50,9 +51,8 @@
           99 Today
         </p>
       </div>
-      <!-- <div class="social__instagram-wrapper"> -->
         <div class="social__card social--instagram">
-          <!-- <span class="border">hello</span> -->
+          <span class="instagram-border"></span>
           <p class="social__user">
             <img src="/images/icon-instagram.svg" alt="icon-instagram">
             @realnathanf
@@ -64,7 +64,6 @@
             1099 Today
           </p>
         </div>
-      <!-- </div> -->
       <div class="social__card social--youtube">
         <p class="social__user">
           <img src="/images/icon-youtube.svg" alt="icon-youtube">

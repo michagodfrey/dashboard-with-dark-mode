@@ -24,9 +24,16 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
 
+With a few imperfections compared to the design, I think I have largely achieved this. Although this site has light mode as the default whereas the design appears to be have dark mode as default.
+
+This project was a a refresher after a short non-voluntary break from practising coding. I was glad I managed to build this in the time I estimated it would take. This is a mock up, and the stats are hard coded.
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop light mode](/screenshots/social-media-dashboard-desktop.png)
+![Desktop dark mode](/screenshots/social-media-dashboard-desktop-dark.png)
+![Mobile light mode](/screenshots/social-media-dashboard-mobile.png)
+![Mobile dark mode](/screenshots/social-media-dashboard-mobile-dark.png)
 
 ### Links
 
@@ -41,25 +48,14 @@ This one was built with the basics: HTML, CSS and JavaScript.
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+This was a reminder of how hard naming things can be! I tried to follow a naming convention that had some consistency but as the dark mode was implemented I added more classes to switch colors with JavaScript.
+
+If I had more time to spend on this, I'm sure I could figure out a neater class naming system and more concise JavaScript. However, I did manage this under the time I estimated it would take.
 
 ### Useful resources
 
 - [W3 Schools](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp) - The straight-forward example of how to use a dark mode toggle using JavaScript DOM manipulation was all I needed to figure out how to implement a much more complicated example in this project.
 - [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch ) - I basically took the toggle button off the shelf from this invaluable resource. Only minor edits made to match the design.
-- [The great Kevin Powell's](https://www.youtube.com/watch?v=zGiirUiWslI&ab_channel=KevinPowell) - video on pseudo classes really helped things click for me and I was able to implement a pseudo class for the background.
 - [HTML-CSS-JS](https://html-css-js.com/css/generator/gradient/) - Is a site I frequently use for no fuss color gradient code and more.
 - [HTML Colors](https://htmlcolors.com/hsl-to-hex) - Came in handy converting supplied HSL colors to HEX format.
 - [John Smilga's color generator](https://react-projects-9-color-generator.netlify.app/) - Is a handy tool for finding hex values of colors a certain percentage lighter or darker of prescribed colors. This is useful for hover effects that don't seem to be specified in the style guide.
