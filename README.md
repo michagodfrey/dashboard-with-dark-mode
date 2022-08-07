@@ -37,8 +37,8 @@ This project was a a refresher after a short non-voluntary break from practising
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Frontend Mentor Solution page](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub/mock-dashboard-with-dark-mode-switch-built-with-html-css-and-js-FNkEfXY5fu)
+- [Live site hosted by GitHub Pages](https://michagodfrey.github.io/dashboard-with-dark-mode/)
 
 ## My process
 
