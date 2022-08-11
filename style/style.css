@@ -42,9 +42,14 @@ main {
   margin: 0 auto;
 }
 
-h3 {
+h1 {
+  margin-bottom: .25rem;
+}
+
+.follower-count {
   color: var(--dark-grayish-blue);
   margin: -1rem 0 1.5rem;
+  font-weight: 700;
 }
 
 hr {
@@ -310,7 +315,7 @@ h2 {
 
   .overview div {
     width: 77.5%;
-    margin: 1rem 0;
+    margin: 1rem;
   }
 }
 

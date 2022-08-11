@@ -2,7 +2,7 @@ function toggleDarkMode() {
    const body = document.querySelector("body");
    const backgroundTop = document.querySelector(".background-top");
    const h1 = document.querySelector("h1");
-   const h3 = document.querySelector("h3");
+   const followerCount = document.querySelector(".follower-count");
    const social__card = document.querySelectorAll(".social__card");
    const social__user = document.querySelectorAll(".social__user");
    const social__count = document.querySelectorAll(".social__count");
@@ -18,7 +18,7 @@ function toggleDarkMode() {
 
    h1.classList.toggle("dark-mode--title");
 
-   h3.classList.toggle("dark-mode--text");
+   followerCount.classList.toggle("dark-mode--text");
 
    for (let i = 0; i < social__card.length; i++) {
      social__card[i].classList.toggle("dark-mode--card");
